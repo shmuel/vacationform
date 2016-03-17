@@ -1,0 +1,7 @@
+---
+applications:
+  - name: <YOUR APP NAME HERE>
+    memory: 512M
+    path: target/vacationform-0.0.1-SNAPSHOT.jar
+  env:
+    VACATIONFORM_URL: <YOUR GAS SCRIPT URL HERE>

@@ -1,0 +1,7 @@
+/node_modules/
+*~
+/target/
+manifest.yml
+manifest.yml.pivotal
+.idea/workspace.xml
+

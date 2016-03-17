@@ -1,0 +1,26 @@
+<div class="col-sm-12" ng-controller="step2">
+    <div>
+        <h1>Vacation Form</h1>
+        <h3>Please list the dates of any vacations you already know about</h3>
+        <div class="row" ng-repeat="plan in vacationData.vacationPlans"
+             style="padding: 5px">
+            <input class="col-sm-3" type="date" ng-model="plan.fromDate">
+            <div class="col-sm-1" >to</div>
+            <input  class="col-sm-3" type="date" ng-model="plan.toDate">
+            <div class="col-sm-1" ></div>
+            <input  class="col-sm-4" type="text" placeholder="Note" ng-model="plan.note">
+        </div>
+
+        <p class="row">
+        <button class="btn btn-info" ng-click="addPlan()">Add another week</button>
+        </p>
+
+        <p class="row">
+            Do you have a family trip planned? A trip with friends? A long holiday or a weekend away?
+            A week during the Holidays?</p>
+
+        <a ui-sref="step3">
+            <button class="row btn btn-primary">Submit Plan</button>
+        </a>
+    </div>
+</div>
