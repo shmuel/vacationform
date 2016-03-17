@@ -4,50 +4,6 @@ Vacation Form
 =============
 
 
-Using the repo on bitbucket
---------------
-
-The code is on bitbucket for now, as that gives us a private repo.
-
-```
-GIT_SSH_COMMAND='ssh -i  ~/.ssh/deploymentkey' git clone git@bitbucket.org:dirkjot/vacation-form.git
-```
-
-Read access to the repo via this private key, put it in `~/.ssh/deploymentkey`
-with permissions 600  /  u+rw,oa-
-
-
-```
------BEGIN RSA PRIVATE KEY-----
-MIIEowIBAAKCAQEAts6zLZwRyiCDrt7aszSC4stf5f51mFTxlwsQOJgBi37P/ACQ
-BMPTH4uJnmPx3GCS/vwV0q5UOxmGoQqQarND+agoRWwNjYHkqlvwYBD9R06kAtfx
-9HaiRJP+pCc8+Zh9Cyx1jqePsMfF/jKujlFQOUIIuRYmy68TQ/5blveHxOPw2Fo2
-1vDRgDLf3lh1DhYJkbbTIorJpyfNMQTXLY3XqH3py9wQc/kmwIYOsL5NGitBzksc
-9Ksm5eBheAnfUMeJ6rhYhS9xbqHf3Tg9kcxBozFBDnxQ39hNwjWKxjApfnpT+abY
-8NUxR1YvdtonDxHUZ8WF2zeRio2kaZMijBWccQIDAQABAoIBADCS/91QqRFyTks7
-ABW6EEU/EP5F/O07NO6Ti/3dthtg2Nb3N01s0z6Aj1K879lE+Ao05X+TvuHtSG6m
-JfWUKK2/1uOLcJZ3O1FhGKAOI5688KuowavZkghy4qivnG4d7Kv5Zks/jtjEXIHM
-6cD7LjvopfS4RBq/LHlWrvOQVk0kaOoijwmSxNwohY37ye54FuJspwv+NEXy8WEu
-pr4isAipCRoC/ZWx1PyqthHCH+XiI8LvpK8IuTXyibQ972K4nRCV3nnRF0FYGk/f
-rO8oYbByJnh8BmbTuv+LJEOYDa4QUvk639A2upKDyC2dybgJnlFzk6TL+TG3CyUj
-8o0+jdkCgYEA6GUDbHphf+p80PvjQFyPfePU3kCJft5KMLitVUHkMuKtd/BSc7hu
-q1YnVQKd0hW78fL7eDSgQuwxZBN0UqVCvhRRqNFdXQf+AMjALvbtL3Q68biU7sMJ
-IJd2tglBQlmXk2YrW6anUZIWNBu6IX18CPygiDo92bQlBryabCIKDvcCgYEAyWBD
-3jSqJ/A/dMiBfzkJkZxdtz9dwZ+vfWuNObLWcwFdwKN3n9bOCXoTLoPuxHZlHWM+
-XGmFspIa9S2qz/XvLKs5zcjv9yPR1Mor1g2qV2mAzrk3G4G2t4MnceEBHPoMKfVG
-QdLcAhbyQ16QyWpfg5MaVMyVbeWinNmHQZWDjdcCgYAJHs2/mB3zczRqzzff8sH+
-4s4b2tSKkha/SsAitG9MP/Em39uchwRw3PS2NWAUOp4hpLORyB7yAWr+znSmOa4g
-35NE2NKdMA8b4MUKEs7EKf+WNPRDWowlJ0yVYE+bVwDH3B6ffi7a2KzeZqgrYE1Z
-3PA/6Gk8/gDl/sjgrYVPiQKBgBFcXT2A6NJ8odvdlVx0fGCzTFkJ+3k/3Q9BAHHi
-+x37FiwPa7a5/BVREupFsYX6dwkrjyrEZiRY+D3+6+T13OLK+DbHhfiWe/aOX20a
-zH6wt8wap6eVbT0w72uf7EqlO/s6DA6MsS7073njYzQaGZXsTq7U3GUXEQfYsRJ0
-Y10NAoGBAJ1dR7qwF1hmLEf27SvenYQ5f1soVb4OZsV0vu+PGAlhiA7K28wqTmQm
-Y/hzZe7oYuzjeAmCTGsnOpyx1HRrVWgC28l9+q4FX5rke8uAx6FDzeQdr+PG9DZl
-63vjZwzjoN3uvUS0ssK9Yjdmf86Eth7NbsRxitcwpowAFX4pH1e0
------END RSA PRIVATE KEY-----
-```
-
-
 Deploying to Google Sheets / GAS
 ------
 
