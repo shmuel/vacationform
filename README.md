@@ -41,7 +41,7 @@ the url of your GAS script.  In IntelliJ, you can modify the configuration for y
 Deploying to CF
 -----
 
-The app is currently running on the PEZ CF belonging to djanssen@pivotal.io.
+The app was built to run on Pivotal Web Services, a CloudFoundry instance.
 
 There is a sample manifest under `manifest.yml.template`.  You will have to add the name
 of the app and the URL of your GAS script.  Then
@@ -50,8 +50,12 @@ cf login -a https://api.run.pez.pivotal.io --sso
 cf push
 ```
 
-The `--sso` option will show you a URL to open.  Use a browser in which you have previously
+When using PEZ (a Pivotal internal product), you will need the `--sso` option for single sign on.  It will show you a URL to open.  Use a browser in which you have previously
 authenticated with Okta.
+
+Others, use `-a api.run.pivotal.io` instead, use your username and passwords with PWS.
+
+
 
 
 
