@@ -3,6 +3,13 @@
 Vacation Form
 =============
 
+For a short assignment, we wanted to replicate the basics of Google
+Forms without using the actual product.  The assignment was to set up
+a form on our own server but feed the results into a Google Sheets (the name for their
+spreadsheet product).  
+
+I wrote a blog post which discusses this code in too much detail: http://dotted-pair.blogspot.com/2016/03/making-your-own-google-forms.html
+
 
 Deploying to Google Sheets / GAS
 ------
