@@ -13,7 +13,8 @@
             <table class="table">
                 <tr>
                     <td>Vacation Days:</td>
-                    <td>{{vacationData.weeks * 5}} days</td>
+                    <td>{{vacationData.weeks}} weeks</td>
+                    <!-- {{vacationData.weeks * 5}} days -->
                 </tr>
                 <tr>
                     <td>Sick time:</td>
@@ -21,7 +22,8 @@
                 </tr>
                 <tr>
                     <td>Total PTO:</td>
-                    <td>{{vacationData.weeks * 5 + sickDays}} days</td>
+                    <td>{{vacationData.weeks + 2}} weeks</td>
+                    <!-- {{vacationData.weeks * 5 + sickDays}} days -->
                 </tr>
 
             </table>
